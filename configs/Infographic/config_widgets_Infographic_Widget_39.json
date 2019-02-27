@@ -1,0 +1,240 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "stack",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "activeItemIndex": 0,
+        "height": 100,
+        "content": [
+          {
+            "type": "component",
+            "isClosable": true,
+            "componentName": "jimu grid",
+            "componentState": {
+              "id": "17657874375954208-2"
+            },
+            "reorderEnabled": true,
+            "title": "jimu grid",
+            "id": "17657874375954208-2"
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "17657874375954208-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "17657874375954208-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "feature",
+        "type": "column",
+        "labelField": "rótulo",
+        "valueFields": [
+          "precio_gasolina_95",
+          "precio_gasóleo_a",
+          "precio_gasóleo_b",
+          "precio_bioetanol",
+          "precio_nuevo_gasóleo_a",
+          "precio_biodiesel",
+          "precio_gasolina_98",
+          "precio_gas_natural_comprimido",
+          "precio_gas_natural_licuado",
+          "precio_gases_licuados_del_petr"
+        ],
+        "sortOrder": {
+          "isAsc": true
+        },
+        "maxLabels": "",
+        "backgroundColor": "#222222",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#68d2e0"
+                ]
+              },
+              "name": "precio_gasolina_95",
+              "label": "Precio Gasolina 95"
+            },
+            {
+              "style": {
+                "color": [
+                  "#087e92"
+                ]
+              },
+              "name": "precio_gasóleo_a",
+              "label": "Precio Gasoleo A"
+            },
+            {
+              "style": {
+                "color": [
+                  "#47bcf5"
+                ]
+              },
+              "name": "precio_gasóleo_b",
+              "label": "precio_gasóleo_b"
+            },
+            {
+              "style": {
+                "color": [
+                  "#6a5acd"
+                ]
+              },
+              "name": "precio_bioetanol",
+              "label": "precio_bioetanol"
+            },
+            {
+              "style": {
+                "color": [
+                  "#4169e1"
+                ]
+              },
+              "name": "precio_nuevo_gasóleo_a",
+              "label": "precio_nuevo_gasóleo_a"
+            },
+            {
+              "style": {
+                "color": [
+                  "#0000cd"
+                ]
+              },
+              "name": "precio_biodiesel",
+              "label": "precio_biodiesel"
+            },
+            {
+              "style": {
+                "color": [
+                  "#2db7c6"
+                ]
+              },
+              "name": "precio_gasolina_98",
+              "label": "precio_gasolina_98"
+            },
+            {
+              "style": {
+                "color": [
+                  "#c4eef6"
+                ]
+              },
+              "name": "precio_gas_natural_comprimido",
+              "label": "precio_gas_natural_comprimido"
+            },
+            {
+              "style": {
+                "color": [
+                  "#68d2e0"
+                ]
+              },
+              "name": "precio_gas_natural_licuado",
+              "label": "precio_gas_natural_licuado"
+            },
+            {
+              "style": {
+                "color": [
+                  "#087e92"
+                ]
+              },
+              "name": "precio_gases_licuados_del_petr",
+              "label": "precio_gases_licuados_del_petr"
+            }
+          ],
+          "type": "series"
+        },
+        "legend": {
+          "show": true,
+          "textStyle": {
+            "color": "#fff",
+            "fontSize": 12
+          }
+        },
+        "xAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#fff",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#fff"
+          }
+        },
+        "yAxis": {
+          "show": true,
+          "textStyle": {
+            "color": "#fff",
+            "fontSize": 12
+          },
+          "nameTextStyle": {
+            "color": "#fff"
+          }
+        },
+        "marks": {}
+      }
+    },
+    {
+      "id": "17657874375954208-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "column",
+  "wid": "17657874375954208",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Gasolineras de España",
+    "layerId": "Gasolineras_9056",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}
